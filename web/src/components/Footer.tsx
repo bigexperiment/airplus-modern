@@ -1,7 +1,9 @@
 import Link from "next/link";
 import contactData from "../../public/information/contact.json";
 import directorData from "../../public/information/director.json";
-import { Dancing_Script } from "next/font/google";
+import { Patrick_Hand } from "next/font/google";
+
+const hand = Patrick_Hand({ subsets: ["latin"], weight: "400", variable: "--font-hand" });
 
 type Company = { registered?: string; tourismLicense?: string; vat?: string };
 type Rep = { country: string; name: string; phone: string; email: string };
@@ -10,16 +12,16 @@ export default function Footer() {
   const year = new Date().getFullYear();
   const company = (contactData as { company?: Company }).company || {};
   const reps = (contactData as { representatives?: Rep[] }).representatives || [];
-  const directorNote = ((directorData as { message?: string[] }).message || [])[0] ||
-    "Welcome to Nepal — we’re excited to help you plan an unforgettable journey.";
-  const script = Dancing_Script({ subsets: ["latin"], weight: ["400", "600"], variable: "--font-script" });
+  const dir = directorData as { name?: string; title?: string; message?: string[] };
+  const short = (dir.message?.[0] || "Welcome to AirPlus Nepal — seamless, memorable adventures.").replace(/\.$/, "");
+  const directorNote = `${short}.`;
 
   return (
     <footer className="mt-10 border-t border-white/10">
       <div className="container-px py-8 text-sm text-muted-foreground flex flex-col gap-4">
-        <div className={`${script.className} text-base md:text-lg text-foreground/90`}>
+        <div className={`${hand.className} text-base md:text-lg text-foreground/90`}>
           <Link href="/director" className="hover:underline">
-            “{directorNote}” — Director’s note
+            “{directorNote}” <span className="text-muted-foreground">— Madan Bhandari, Director</span>
           </Link>
         </div>
         <div className="flex flex-col md:flex-row items-center justify-between gap-3">
