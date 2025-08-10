@@ -1,0 +1,28 @@
+{
+  "slug": "mardi-himal",
+  "title": "Mardi Himal Trek",
+  "region": "Annapurna Region",
+  "duration": "09 Days",
+  "destination": "Nepal",
+  "maxElevation": "4,500 m",
+  "difficulty": "Moderate to Strenuous",
+  "accommodation": "Tea House",
+  "transport": "Land/Flight",
+  "coverImage": "/information/assets/cover_mardi_himal.jpg",
+  "overview": [
+    "Lesser-known, serene trail culminating at Mardi Himal Base Camp.",
+    "Views of Fishtail, Annapurna South, Hiunchuli; cultural immersion."
+  ],
+  "itinerary": [
+    {"day": 1, "title": "Arrival in Kathmandu", "description": "Meet our representatives and trip briefing."},
+    {"day": 2, "title": "Kathmandu to Pokhara", "description": "Drive or fly from Kathmandu to Pokhara."},
+    {"day": 3, "title": "Trek to Pitam Deurali", "description": "Drive to Kande (1,740 m). Trek to Pitam Deurali (2,100 m)."},
+    {"day": 4, "title": "Trek to Low Camp", "description": "Trek to Low Camp (2,600 m)."},
+    {"day": 5, "title": "Trek to High Camp", "description": "Trek to High camp (3550 m)."},
+    {"day": 6, "title": "Mardi Himal Base Camp", "description": "Hike to Mardi Himal base camp (4,500 m). Trek to Badal Danda (3,210 m)."},
+    {"day": 7, "title": "Trek to Sidhing and Drive to Pokhara", "description": "Trek to Sidhing (1,700 m). Drive to Pokhara."},
+    {"day": 8, "title": "Pokhara to Kathmandu", "description": "Drive or fly from Pokhara to Kathmandu."},
+    {"day": 9, "title": "Final Departure", "description": "Departure from Kathmandu."}
+  ]
+}
+

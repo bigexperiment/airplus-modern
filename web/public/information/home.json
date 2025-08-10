@@ -1,0 +1,46 @@
+{
+  "hero": {
+    "title": "Discover the Magic of Nepal",
+    "subtitle": "Embark on a journey through breathtaking landscapes, ancient cultures, and unforgettable adventures",
+    "image": "/information/assets/hero_main.png"
+  },
+  "trekkingPackages": [
+    { "name": "Everest Base Camp", "duration": "11 Days", "image": "/images/everest-base-camp.jpg", "link": "/treks/everest-region/everest-base-camp" },
+    { "name": "Annapurna Base Camp", "duration": "11 Days", "image": "/images/annapurna-base-camp.jpg", "link": "/treks/annapurna-region/annapurna-base-camp" },
+    { "name": "Annapurna Circuit", "duration": "15 Days", "image": "/images/annapurna-circuit.jpg", "link": "/treks/annapurna-region/annapurna-circuit" },
+    { "name": "Manaslu Circuit", "duration": "15 Days", "image": "/images/manaslu-circuit.jpg", "link": "/treks/manaslu-region/manaslu-circuit" },
+    { "name": "Poon Hill", "duration": "8 Days", "image": "/images/poon-hill.jpg", "link": "/treks/annapurna-region/poon-hill" }
+  ],
+  "tourPackages": [
+    { "name": "Kathmandu & Nagarkot", "duration": "4 Days", "image": "/images/kathmandu-nagarkot.jpg", "link": "/tours/kathmandu-nagarkot" },
+    { "name": "Kathmandu & Pokhara", "duration": "5 Days", "image": "/images/kathmandu-pokhara.jpg", "link": "/tours/kathmandu-pokhara" },
+    { "name": "Kathmandu & Chitwan", "duration": "6 Days", "image": "/images/kathmandu-chitwan.jpg", "link": "/tours/kathmandu-chitwan" },
+    { "name": "Kathmandu & Lumbini", "duration": "5 Days", "image": "/images/kathmandu-lumbini.jpg", "link": "/tours/kathmandu-lumbini" }
+  ],
+  "activities": [
+    { "name": "Trekking", "icon": "Mountain" },
+    { "name": "Cultural Tours", "icon": "Camera" },
+    { "name": "Adventure Sports", "icon": "Map" }
+  ],
+  "testimonials": [
+    { "name": "Ethan Carter", "text": "AirPlusNepal turned my Nepal dreams into an unforgettable reality. Absolutely stellar service!" },
+    { "name": "Abigail Johnson", "text": "From the majestic Himalayas to the cultural richness of Kathmandu, every moment was perfect." }
+  ],
+  "gallery": {
+    "images": [
+      "/information/assets/gallery_1.jpg",
+      "/information/assets/gallery_2.jpg",
+      "/information/assets/gallery_3.jpg",
+      "/information/assets/gallery_4.jpg",
+      "/information/assets/gallery_5.jpg",
+      "/information/assets/gallery_6.jpg",
+      "/information/assets/gallery_7.jpg",
+      "/information/assets/gallery_8.jpg"
+    ]
+  },
+  "reviews": {
+    "score": 4.8,
+    "countText": "150+ happy travelers"
+  }
+}
+

@@ -1,0 +1,39 @@
+{
+  "slug": "everest-base-camp",
+  "title": "Everest Base Camp Trekking",
+  "region": "Everest Region",
+  "duration": "15 Days",
+  "destination": "Nepal",
+  "maxElevation": "5,545 m",
+  "difficulty": "Strenuous",
+  "accommodation": "Tea House",
+  "transport": "Fly in/Fly out",
+  "images": [
+    {"src": "/information/assets/trekking_everest1.jpg", "name": "trekking_everest1"},
+    {"src": "/information/assets/trekking_everest2.jpg", "name": "trekking_everest2"},
+    {"src": "/information/assets/trekking_everest3.jpg", "name": "trekking_everest3"}
+  ],
+  "overview": [
+    "Embark on the Everest Base Camp trek, a journey through the heart of the Himalayas with breathtaking scenery and diverse landscapes.",
+    "Experience the rich culture of the Sherpa community, staying in traditional tea houses along the route.",
+    "Culminate at the iconic Everest Base Camp and nearby Kala Patthar for sunrise views."
+  ],
+  "itinerary": [
+    {"day": 1, "title": "Arrival in Kathmandu", "description": "Meet our representatives and trip briefing."},
+    {"day": 2, "title": "Fly to Lukla and Trek to Phakding", "description": "Fly to Lukla (2,840 m) and trek to Phakding (2,620 m)."},
+    {"day": 3, "title": "Phakding to Namche Bazaar", "description": "Trek to Namche Bazaar (3,440 m)."},
+    {"day": 4, "title": "Acclimatization Day in Namche Bazaar", "description": "Explore Namche Bazaar and acclimatize."},
+    {"day": 5, "title": "Namche Bazaar to Tengboche", "description": "Trek to Tengboche (3,740 m)."},
+    {"day": 6, "title": "Tengboche to Dingboche", "description": "Trek to Dingboche (4,440 m)."},
+    {"day": 7, "title": "Acclimatization Day in Dingboche", "description": "Rest and explore Dingboche."},
+    {"day": 8, "title": "Dingboche to Lobuche", "description": "Trek to Lobuche (4,930 m)."},
+    {"day": 9, "title": "Lobuche to Gorak Shep and Everest Base Camp", "description": "Reach Gorak Shep (5,170 m) and visit Everest Base Camp (5,364 m)."},
+    {"day": 10, "title": "Gorak Shep to Kala Patthar and to Pheriche", "description": "Climb Kala Patthar (5,545 m) and descend to Pheriche (4,243 m)."},
+    {"day": 11, "title": "Pheriche to Namche Bazaar", "description": "Trek back to Namche Bazaar (3,440 m)."},
+    {"day": 12, "title": "Namche Bazaar to Lukla", "description": "Return to Lukla (2,840 m)."},
+    {"day": 13, "title": "Fly to Kathmandu", "description": "Fly from Lukla to Kathmandu."},
+    {"day": 14, "title": "Free Day in Kathmandu", "description": "Explore Kathmandu or relax."},
+    {"day": 15, "title": "Final Departure", "description": "Departure from Kathmandu."}
+  ]
+}
+

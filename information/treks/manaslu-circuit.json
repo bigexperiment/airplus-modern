@@ -1,0 +1,41 @@
+{
+  "slug": "manaslu-circuit",
+  "title": "Manaslu Circuit Trek",
+  "region": "Manaslu Region",
+  "duration": "15 Days",
+  "destination": "Nepal",
+  "maxElevation": "5,160 m",
+  "difficulty": "Strenuous",
+  "accommodation": "Tea House",
+  "transport": "Drive in - Drive Out",
+  "images": [
+    {"src": "/information/assets/trekking_manaslu1.jpg", "name": "trekking_manaslu1"},
+    {"src": "/information/assets/trekking_manaslu2.jpg", "name": "trekking_manaslu2"}
+  ],
+  "overview": [
+    "Remote circuit with Larkya La Pass, Tibetan culture, and raw Himalayan scale."
+  ],
+  "highlights": [
+    "Less crowded than EBC/Annapurna",
+    "Views crossing Larkya La",
+    "Tea houses and authentic villages"
+  ],
+  "itinerary": [
+    {"day": 1, "title": "Arrival in Kathmandu", "description": "Meet our representatives and trip briefing."},
+    {"day": 2, "title": "Explore Kathmandu", "description": "Explore cultural sites and obtain permits."},
+    {"day": 3, "title": "Drive to Maccha Khola", "description": "Drive from Kathmandu to Maccha Khola (900 m)."},
+    {"day": 4, "title": "Trek to Jagat", "description": "Trek to Jagat (1410 m)."},
+    {"day": 5, "title": "Trek to Deng", "description": "Trek to Deng (1804 m)."},
+    {"day": 6, "title": "Trek to Namrung", "description": "Trek to Namrung (2630 m)."},
+    {"day": 7, "title": "Trek to Samagaon", "description": "Trek to Samagaon (3530 m)."},
+    {"day": 8, "title": "Acclimatization Day", "description": "Visit around Pungyen gompa."},
+    {"day": 9, "title": "Trek to Samdo", "description": "Trek to Samdo (3860 m)."},
+    {"day": 10, "title": "Trek to Dharamsala", "description": "Trek to Dharamsala/Larkya B. C. (4460 m)."},
+    {"day": 11, "title": "Trek to Bimtang", "description": "Trek to Bimtang (3720 m). Larkya-la pass day (5160 m)."},
+    {"day": 12, "title": "Trek to Tilije", "description": "Trek to Tilije (2300 m)."},
+    {"day": 13, "title": "Trek to Tal and Drive to Besisahar", "description": "Trek to Tal (1700 m). Drive to Besisahar."},
+    {"day": 14, "title": "Drive to Kathmandu", "description": "Drive to Kathmandu."},
+    {"day": 15, "title": "Final Departure", "description": "Final departure."}
+  ]
+}
+

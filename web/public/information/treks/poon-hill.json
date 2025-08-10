@@ -1,0 +1,27 @@
+{
+  "slug": "poon-hill",
+  "title": "Poon Hill (Ghorepani-Ghandruk) Trek",
+  "region": "Annapurna Region",
+  "duration": "8 Days",
+  "destination": "Nepal",
+  "maxElevation": "3,210 m",
+  "difficulty": "Easy",
+  "accommodation": "Tea House",
+  "transport": "Land/Flight",
+  "coverImage": "/information/assets/cover_poon_hill.jpg",
+  "overview": [
+    "Popular short trek with sunrise at Poon Hill over Annapurna & Dhaulagiri.",
+    "Lush forests, terraces, Gurung and Magar villages; great for beginners."
+  ],
+  "itinerary": [
+    {"day": 1, "title": "Arrival in Kathmandu", "description": "Meet our representatives and trip briefing."},
+    {"day": 2, "title": "Kathmandu to Pokhara", "description": "Drive or fly from Kathmandu to Pokhara."},
+    {"day": 3, "title": "Trek to Ulleri", "description": "Drive to Tikhedhunga and trek to Ulleri (2,055 m)."},
+    {"day": 4, "title": "Trek to Ghorepani", "description": "Trek to Ghorepani (2,850 m)."},
+    {"day": 5, "title": "Poon Hill and Trek to Tadapani", "description": "Hike to Poon Hill (3,210 m) and trek to Tadapani (2,540 m)."},
+    {"day": 6, "title": "Trek to Ghandruk and Drive to Pokhara", "description": "Trek to Ghandruk (1,940 m) & drive to Pokhara."},
+    {"day": 7, "title": "Pokhara to Kathmandu", "description": "Drive or fly from Pokhara to Kathmandu."},
+    {"day": 8, "title": "Final Departure", "description": "Departure from Kathmandu."}
+  ]
+}
+

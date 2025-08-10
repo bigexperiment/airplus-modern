@@ -1,0 +1,33 @@
+{
+  "slug": "gokyo-lake",
+  "title": "Gokyo Lake Trek",
+  "region": "Everest Region",
+  "duration": "14 Days",
+  "destination": "Nepal",
+  "maxElevation": "5,357 m",
+  "difficulty": "Moderate-Strenuous",
+  "accommodation": "Tea House",
+  "transport": "Fly in/Fly out",
+  "coverImage": "/information/assets/cover_gokyo_lake.jpg",
+  "overview": [
+    "Chain of six turquoise, glacial-fed lakes with fewer crowds than EBC.",
+    "Summit Gokyo Ri for panoramic 8000m views."
+  ],
+  "itinerary": [
+    {"day": 1, "title": "Arrival in Kathmandu", "description": "Meet our representatives and trip briefing."},
+    {"day": 2, "title": "Fly to Lukla and Trek to Phakding", "description": "Fly to Lukla (2,840 m) and trek to Phakding (2,620 m)."},
+    {"day": 3, "title": "Phakding to Namche Bazaar", "description": "Trek to Namche Bazaar (3,440 m)."},
+    {"day": 4, "title": "Acclimatization Day in Namche Bazaar", "description": "Explore Namche and acclimatize."},
+    {"day": 5, "title": "Namche to Phortse Thenga", "description": "Trek to Phortse Thenga (3,680 m)."},
+    {"day": 6, "title": "Phortse Thenga to Machhermo", "description": "Trek to Machhermo (4,470 m)."},
+    {"day": 7, "title": "Machhermo to Gokyo", "description": "Trek to Gokyo (4,790 m)."},
+    {"day": 8, "title": "Explore Gokyo Ri and Gokyo Lake", "description": "Hike to Gokyo Ri (5,357 m) and explore the lakes."},
+    {"day": 9, "title": "Gokyo to Dole", "description": "Trek back to Dole (4,200 m)."},
+    {"day": 10, "title": "Dole to Namche Bazaar", "description": "Trek to Namche Bazaar (3,440 m)."},
+    {"day": 11, "title": "Namche Bazaar to Lukla", "description": "Return to Lukla (2,840 m)."},
+    {"day": 12, "title": "Fly to Kathmandu", "description": "Fly from Lukla to Kathmandu."},
+    {"day": 13, "title": "Free Day in Kathmandu", "description": "Explore Kathmandu or relax."},
+    {"day": 14, "title": "Final Departure", "description": "Departure from Kathmandu."}
+  ]
+}
+

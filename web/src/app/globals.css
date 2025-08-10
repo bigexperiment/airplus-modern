@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #0b0d10;
+  --muted: #f3f5f7;
+  --muted-foreground: #6b7280;
+  --primary: #0ea5e9;
+  --primary-foreground: #f0f9ff;
+  --accent: #10b981;
+  --accent-foreground: #ecfdf5;
+  --border: #e5e7eb;
+  --field-bg: #ffffff;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --font-sans: var(--font-plus-jakarta);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0b0d10;
+    --foreground: #e8ecef;
+    --muted: #111418;
+    --muted-foreground: #9aa4af;
+    --primary: #57c2ff;
+    --primary-foreground: #021018;
+    --accent: #6ee7b7;
+    --accent-foreground: #001410;
+    --border: #22262c;
+    --field-bg: rgba(255,255,255,0.04);
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-plus-jakarta), ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+/* fancy subtle grain for depth */
+.bg-noise {
+  background-image: radial-gradient(rgba(255,255,255,0.06) 1px, transparent 1px);
+  background-size: 3px 3px;
+}
+
+.container-px {
+  padding-left: clamp(1rem, 4vw, 2rem);
+  padding-right: clamp(1rem, 4vw, 2rem);
+}
+
+.section {
+  padding-top: clamp(2rem, 6vw, 4rem);
+  padding-bottom: clamp(2rem, 6vw, 4rem);
+}
+
+.glass {
+  backdrop-filter: saturate(180%) blur(12px);
+  background: color-mix(in oklab, var(--muted) 40%, transparent);
+  border: 1px solid var(--border);
+}
+
+/* generic form field */
+.field {
+  width: 100%;
+  border: 1px solid var(--border);
+  background: var(--field-bg);
+  color: inherit;
+  border-radius: 0.6rem;
+  padding: 0.5rem 0.75rem;
+}
+.field:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 4px color-mix(in oklab, var(--primary) 25%, transparent);
+}

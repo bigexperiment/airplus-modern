@@ -1,0 +1,31 @@
+{
+  "slug": "annapurna-base-camp",
+  "title": "Annapurna Base Camp Trek",
+  "region": "Annapurna Region",
+  "duration": "11 Days",
+  "destination": "Nepal",
+  "maxElevation": "4,130 m",
+  "difficulty": "Moderate",
+  "accommodation": "Tea House",
+  "transport": "Land/Flight",
+  "coverImage": "/information/assets/cover_annapurna_base_camp.jpg",
+  "overview": [
+    "Captivating journey through rhododendron forests, Gurung villages, and alpine meadows.",
+    "Sunrise over the Annapurna amphitheater is a highlight.",
+    "Suitable for trekkers of all levels with cozy tea houses along the way."
+  ],
+  "itinerary": [
+    {"day": 1, "title": "Arrival in Kathmandu", "description": "Meet our representatives and trip briefing."},
+    {"day": 2, "title": "Kathmandu to Pokhara", "description": "Drive or fly from Kathmandu to Pokhara."},
+    {"day": 3, "title": "Trek to Chhomrong", "description": "Drive to Matkyu (3 hrs). Trek to Chhomrong (2,030 m)."},
+    {"day": 4, "title": "Trek to Bamboo", "description": "Trek to Bamboo (2,300 m)."},
+    {"day": 5, "title": "Trek to Deurali", "description": "Trek to Deurali (3,200 m)."},
+    {"day": 6, "title": "Trek to Annapurna Base Camp", "description": "Trek to ABC (4,130 m) via MBC (3,700 m)."},
+    {"day": 7, "title": "Trek to Dovan", "description": "Trek to Dovan (2,580 m)."},
+    {"day": 8, "title": "Trek to Jhinu Danda", "description": "Trek to Jhinu Danda (1,740 m). Visit a natural hot spring."},
+    {"day": 9, "title": "Drive to Pokhara", "description": "Drive to Pokhara. Evening boating at Phewa Lake."},
+    {"day": 10, "title": "Pokhara to Kathmandu", "description": "Drive or fly from Pokhara to Kathmandu."},
+    {"day": 11, "title": "Final Departure", "description": "Departure from Kathmandu."}
+  ]
+}
+

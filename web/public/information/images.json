@@ -1,0 +1,33 @@
+{
+  "hero": [
+    { "src": "/information/assets/hero_main.png", "name": "hero_main" }
+  ],
+  "gallery": [
+    { "src": "/information/assets/gallery_1.jpg", "name": "gallery_1" },
+    { "src": "/information/assets/gallery_2.jpg", "name": "gallery_2" },
+    { "src": "/information/assets/gallery_3.jpg", "name": "gallery_3" },
+    { "src": "/information/assets/gallery_4.jpg", "name": "gallery_4" },
+    { "src": "/information/assets/gallery_5.jpg", "name": "gallery_5" },
+    { "src": "/information/assets/gallery_6.jpg", "name": "gallery_6" },
+    { "src": "/information/assets/gallery_7.jpg", "name": "gallery_7" },
+    { "src": "/information/assets/gallery_8.jpg", "name": "gallery_8" }
+  ],
+  "trekPhotos": [
+    { "src": "/information/assets/trekking_everest1.jpg", "name": "trekking_everest1" },
+    { "src": "/information/assets/trekking_everest2.jpg", "name": "trekking_everest2" },
+    { "src": "/information/assets/trekking_everest3.jpg", "name": "trekking_everest3" },
+    { "src": "/information/assets/trekking_manaslu1.jpg", "name": "trekking_manaslu1" },
+    { "src": "/information/assets/trekking_manaslu2.jpg", "name": "trekking_manaslu2" }
+  ],
+  "coverImages": [
+    { "src": "/information/assets/cover_annapurna_base_camp.jpg", "name": "cover_annapurna_base_camp" },
+    { "src": "/information/assets/cover_annapurna_circuit.jpg", "name": "cover_annapurna_circuit" },
+    { "src": "/information/assets/cover_poon_hill.jpg", "name": "cover_poon_hill" },
+    { "src": "/information/assets/cover_mardi_himal.jpg", "name": "cover_mardi_himal" },
+    { "src": "/information/assets/cover_gokyo_lake.jpg", "name": "cover_gokyo_lake" },
+    { "src": "/information/assets/cover_langtang_valley.jpg", "name": "cover_langtang_valley" },
+    { "src": "/information/assets/cover_khopra_danda.jpg", "name": "cover_khopra_danda" },
+    { "src": "/information/assets/cover_upper_mustang.jpg", "name": "cover_upper_mustang" }
+  ]
+}
+

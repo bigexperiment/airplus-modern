@@ -1,0 +1,42 @@
+{
+  "headOffice": {
+    "name": "Madan Bhandari",
+    "address": "Bhagawatisthan, Thamel, Kathmandu, Nepal",
+    "phones": ["+977 1 4525454", "+977 9862442639"],
+    "whatsapp": "+977 9862442639",
+    "line": "+977 9862442639",
+    "email": "airplusnepal@gmail.com"
+  },
+  "representatives": [
+    {
+      "country": "Australia",
+      "name": "Hom Nath Bhandari",
+      "phone": "+61 404377425",
+      "email": "homnathbhandari2016@gmail.com"
+    },
+    {
+      "country": "Canada",
+      "name": "Subash Bhandari",
+      "phone": "+14374109840",
+      "email": "Subashbhandari1902@gmail.com"
+    },
+    {
+      "country": "Japan",
+      "name": "バンダリ　ラズ",
+      "phone": "080-7850-6412",
+      "email": "bhandariraju575@gmail.com"
+    },
+    {
+      "country": "USA",
+      "name": "Ganesh Adhikari",
+      "phone": "714-485-9360",
+      "email": "ganeshadhikari332@gmail.com"
+    }
+  ],
+  "company": {
+    "registered": "194768/075/076",
+    "tourismLicense": "2605",
+    "vat": "606643944"
+  }
+}
+

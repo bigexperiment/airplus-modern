@@ -1,0 +1,35 @@
+{
+  "slug": "annapurna-circuit",
+  "title": "Annapurna Circuit Trek with Tilicho Lake",
+  "region": "Annapurna Region",
+  "duration": "15 Days",
+  "destination": "Nepal",
+  "maxElevation": "5,416 m",
+  "difficulty": "Moderate",
+  "accommodation": "Tea House",
+  "transport": "Land/Flight",
+  "coverImage": "/information/assets/cover_annapurna_circuit.jpg",
+  "overview": [
+    "Iconic and diverse trekking route crossing Thorong La and visiting sacred Muktinath.",
+    "From lush lowlands to the arid Manang valley and deep Kali Gandaki Gorge.",
+    "Optional Tilicho Lake hike with alpine panoramas."
+  ],
+  "itinerary": [
+    {"day": 1, "title": "Arrival in Kathmandu", "description": "Meet our representatives and trip briefing."},
+    {"day": 2, "title": "Drive to Chame", "description": "Drive to Chame (2,710 m)."},
+    {"day": 3, "title": "Trek to Pisang", "description": "Trek to Pisang (3,300 m)."},
+    {"day": 4, "title": "Trek to Ngawal", "description": "Trek to Ngawal (3,660 m)."},
+    {"day": 5, "title": "Trek to Manang", "description": "Trek to Manang (3,519 m)."},
+    {"day": 6, "title": "Acclimatization day", "description": "Hike to Gangapurna Lake/Ice Lake."},
+    {"day": 7, "title": "Trek to Tilicho base", "description": "Manang to Tilicho base (4,110 m)."},
+    {"day": 8, "title": "Hike to Tilicho Lake", "description": "Hike to Tilicho Lake (4,919 m)."},
+    {"day": 9, "title": "Trek to Yak kharka", "description": "Trek to Yak kharka (4,018 m)."},
+    {"day": 10, "title": "Trek to high camp", "description": "Trek to high camp (4,880 m)."},
+    {"day": 11, "title": "Trek to Muktinath", "description": "Trek to Muktinath (3,800 m). THRONGLA PASS DAY (5416 m)."},
+    {"day": 12, "title": "Trek to Jomsom", "description": "Trek to Jomsom (2,670 m)."},
+    {"day": 13, "title": "Jomsom to Pokhara", "description": "Drive/Flight from Jomsom to Pokhara."},
+    {"day": 14, "title": "Pokhara to Kathmandu", "description": "Drive/Flight from Pokhara to Kathmandu."},
+    {"day": 15, "title": "Final Departure", "description": "Departure from Kathmandu."}
+  ]
+}
+
