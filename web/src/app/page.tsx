@@ -47,6 +47,18 @@ export default async function Home() {
     }
   };
 
+  const pickImageForSlug = (slug: string): string => {
+    const s = slug.toLowerCase();
+    if (s.includes("everest")) return "/information/assets/trekking_everest1.jpg";
+    if (s.includes("annapurna-base-camp")) return "/information/assets/cover_annapurna_base_camp.jpg";
+    if (s.includes("annapurna-circuit")) return "/information/assets/cover_annapurna_circuit.jpg";
+    if (s.includes("mardi-himal")) return "/information/assets/cover_mardi_himal.jpg";
+    if (s.includes("poon-hill")) return "/information/assets/cover_poon_hill.jpg";
+    if (s.includes("gokyo")) return "/information/assets/cover_gokyo_lake.jpg";
+    if (s.includes("manaslu")) return "/information/assets/trekking_manaslu1.jpg";
+    return "/information/assets/hero_main.png";
+  };
+
   return (
     <div className="min-h-screen bg-noise">
       {/* Hero */}
@@ -87,6 +99,7 @@ export default async function Home() {
         <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
           {home.trekkingPackages.map((p) => {
             const slug = p.link.split("/").filter(Boolean).pop() || "";
+            const cover = p.image || pickImageForSlug(slug);
             return (
               <TrekCard
                 key={p.name}
@@ -94,7 +107,7 @@ export default async function Home() {
                 slug={slug}
                 region={"Nepal"}
                 duration={p.duration}
-                cover={p.image}
+                cover={cover}
               />
             );
           })}

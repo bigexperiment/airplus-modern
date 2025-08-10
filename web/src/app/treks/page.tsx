@@ -30,13 +30,26 @@ async function readTreks(): Promise<Trek[]> {
 
 export default async function TreksPage() {
   const treks = await readTreks();
+  const pickImageFor = (t: Trek): string => {
+    const slug = t.slug.toLowerCase();
+    if (t.coverImage) return t.coverImage;
+    if (t.images && t.images.length) return t.images[0].src;
+    if (slug.includes("everest")) return "/information/assets/trekking_everest2.jpg";
+    if (slug.includes("annapurna-base-camp")) return "/information/assets/cover_annapurna_base_camp.jpg";
+    if (slug.includes("annapurna-circuit")) return "/information/assets/cover_annapurna_circuit.jpg";
+    if (slug.includes("mardi-himal")) return "/information/assets/cover_mardi_himal.jpg";
+    if (slug.includes("poon-hill")) return "/information/assets/cover_poon_hill.jpg";
+    if (slug.includes("gokyo")) return "/information/assets/cover_gokyo_lake.jpg";
+    if (slug.includes("manaslu")) return "/information/assets/trekking_manaslu2.jpg";
+    return "/information/assets/hero_main.png";
+  };
   return (
     <div className="section container-px">
       <h1 className="text-3xl md:text-4xl font-semibold">All Treks</h1>
       <p className="mt-2 text-muted-foreground">Curated Himalayan trekking experiences.</p>
       <div className="mt-6 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         {treks.map((t) => {
-          const cover = t.coverImage || t.images?.[0]?.src || "/images/everest-base-camp.jpg";
+          const cover = pickImageFor(t);
           return (
             <Link key={t.slug} href={`/treks/${t.slug}`} className="group rounded-3xl overflow-hidden border border-white/10">
               <div className="relative">

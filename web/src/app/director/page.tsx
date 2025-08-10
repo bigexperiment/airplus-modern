@@ -1,7 +1,9 @@
 import { promises as fs } from "node:fs";
 import path from "node:path";
 import Image from "next/image";
-import { Dancing_Script } from "next/font/google";
+
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
 
 type Director = { name: string; title: string; photo: string; message: string[] };
 
@@ -13,7 +15,6 @@ async function readDirector(): Promise<Director> {
 
 export default async function DirectorPage() {
   const director = await readDirector();
-  const script = Dancing_Script({ subsets: ["latin"], weight: ["400", "600"] });
 
   return (
     <div className="container-px section grid md:grid-cols-3 gap-8">
@@ -27,10 +28,10 @@ export default async function DirectorPage() {
         </div>
       </div>
       <div className="md:col-span-2 space-y-4">
-        <p className={`${script.className} text-2xl`}>Namaste and welcome!</p>
-        <p className="text-muted-foreground text-lg">I began my journey as a young porter in the hills, learned every bend of the trail as a guide, and built AirPlus Nepal to share the Himalayas with care and integrity. Our itineraries are crafted for real acclimatization, safety, and the joy of unhurried travel.</p>
-        <p className="text-muted-foreground text-lg">We are a small, dedicated team of local experts—licensed guides, coordinators, and drivers—who treat every traveler like family. Whether you dream of Everest Base Camp, a quiet village homestay, or a cultural circuit in the Kathmandu Valley, we’ll tailor it to your pace and interests.</p>
-        <p className={`text-muted-foreground text-lg ${script.className}`}>Dhanyabad—thank you—and we look forward to welcoming you to Nepal.</p>
+        {(director.message || []).map((p, i) => (
+          <p key={i} className="text-muted-foreground text-lg">{p}</p>
+        ))}
+        <p className="text-sm text-muted-foreground">— {director.name}, {director.title}</p>
       </div>
     </div>
   );
