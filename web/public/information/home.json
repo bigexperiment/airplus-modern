@@ -5,17 +5,17 @@
     "image": "/information/assets/hero_main.png"
   },
   "trekkingPackages": [
-    { "name": "Everest Base Camp", "duration": "11 Days", "image": "/images/everest-base-camp.jpg", "link": "/treks/everest-region/everest-base-camp" },
-    { "name": "Annapurna Base Camp", "duration": "11 Days", "image": "/images/annapurna-base-camp.jpg", "link": "/treks/annapurna-region/annapurna-base-camp" },
-    { "name": "Annapurna Circuit", "duration": "15 Days", "image": "/images/annapurna-circuit.jpg", "link": "/treks/annapurna-region/annapurna-circuit" },
-    { "name": "Manaslu Circuit", "duration": "15 Days", "image": "/images/manaslu-circuit.jpg", "link": "/treks/manaslu-region/manaslu-circuit" },
-    { "name": "Poon Hill", "duration": "8 Days", "image": "/images/poon-hill.jpg", "link": "/treks/annapurna-region/poon-hill" }
+    { "name": "Everest Base Camp", "duration": "11 Days", "image": "/information/assets/trekking_everest1.jpg", "link": "/treks/everest-region/everest-base-camp" },
+    { "name": "Annapurna Base Camp", "duration": "11 Days", "image": "/information/assets/gallery_1.jpg", "link": "/treks/annapurna-region/annapurna-base-camp" },
+    { "name": "Annapurna Circuit", "duration": "15 Days", "image": "/information/assets/gallery_2.jpg", "link": "/treks/annapurna-region/annapurna-circuit" },
+    { "name": "Manaslu Circuit", "duration": "15 Days", "image": "/information/assets/trekking_manaslu1.jpg", "link": "/treks/manaslu-region/manaslu-circuit" },
+    { "name": "Poon Hill", "duration": "8 Days", "image": "/information/assets/gallery_3.jpg", "link": "/treks/annapurna-region/poon-hill" }
   ],
   "tourPackages": [
-    { "name": "Kathmandu & Nagarkot", "duration": "4 Days", "image": "/images/kathmandu-nagarkot.jpg", "link": "/tours/kathmandu-nagarkot" },
-    { "name": "Kathmandu & Pokhara", "duration": "5 Days", "image": "/images/kathmandu-pokhara.jpg", "link": "/tours/kathmandu-pokhara" },
-    { "name": "Kathmandu & Chitwan", "duration": "6 Days", "image": "/images/kathmandu-chitwan.jpg", "link": "/tours/kathmandu-chitwan" },
-    { "name": "Kathmandu & Lumbini", "duration": "5 Days", "image": "/images/kathmandu-lumbini.jpg", "link": "/tours/kathmandu-lumbini" }
+    { "name": "Kathmandu & Nagarkot", "duration": "4 Days", "image": "/information/assets/gallery_4.jpg", "link": "/tours/kathmandu-nagarkot" },
+    { "name": "Kathmandu & Pokhara", "duration": "5 Days", "image": "/information/assets/gallery_5.jpg", "link": "/tours/kathmandu-pokhara" },
+    { "name": "Kathmandu & Chitwan", "duration": "6 Days", "image": "/information/assets/gallery_6.jpg", "link": "/tours/kathmandu-chitwan" },
+    { "name": "Kathmandu & Lumbini", "duration": "5 Days", "image": "/information/assets/gallery_7.jpg", "link": "/tours/kathmandu-lumbini" }
   ],
   "activities": [
     { "name": "Trekking", "icon": "Mountain" },
